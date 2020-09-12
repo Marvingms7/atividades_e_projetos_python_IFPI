@@ -1,7 +1,7 @@
 def maior():
     n_maior = 0
 
-    for k in range(0, 5):
+    for k in range(0, 100):
         a = int(input("Digite um numero: "))
         if a > n_maior:
             n_maior = a
